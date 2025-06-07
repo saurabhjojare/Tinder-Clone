@@ -1,9 +1,17 @@
-# Maven
+# Maven build output
 target/
+
+# Keep Maven wrapper files
 !.mvn/wrapper/maven-wrapper.jar
 !.mvn/wrapper/maven-wrapper.properties
 
-# STS
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# STS (Spring Tool Suite)
 .apt_generated
 .classpath
 .factorypath
@@ -28,3 +36,10 @@ build/
 
 # VS Code
 .vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven repository cache (usually outside project, but just in case)
+.mvn/repository/

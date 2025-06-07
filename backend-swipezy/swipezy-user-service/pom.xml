@@ -23,6 +23,12 @@
     </properties>
 
     <dependencies>
+        <!-- ✅ Common Module -->
+        <dependency>
+            <groupId>com.swipezy</groupId>
+            <artifactId>swipezy-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!-- ✅ Standard Spring Boot Dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

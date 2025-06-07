@@ -19,8 +19,9 @@
 	</properties>
 
 	<modules>
-		<module>user-service</module>
-		<module>admin-service</module>
+		<module>swipezy-common</module>
+		<module>swipezy-user-service</module>
+		<module>swipezy-admin-service</module>
 	</modules>
 
 	<dependencyManagement>

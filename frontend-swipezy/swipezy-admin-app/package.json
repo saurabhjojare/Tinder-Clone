@@ -1,12 +1,7 @@
 {
-  "name": "frontend-swipezy",
-  "private": true,
+  "name": "swipezy-admin-app",
   "version": "1.0.0",
-  "workspaces": [
-    "swipezy-user-app",
-    "swipezy-admin-app"
-  ],
-  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -17,7 +12,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-  "devDependencies": {
+ "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",

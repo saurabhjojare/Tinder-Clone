@@ -1,11 +1,7 @@
 {
   "name": "frontend-swipezy",
   "private": true,
-  "version": "1.0.0",
-  "workspaces": [
-    "swipezy-user-app",
-    "swipezy-admin-app"
-  ],
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

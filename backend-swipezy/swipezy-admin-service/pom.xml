@@ -3,13 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.swipezy</groupId>
     <artifactId>swipezy-admin-service</artifactId>
 
     <parent>
         <groupId>com.swipezy</groupId>
         <artifactId>backend-swipezy-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version> <!-- same as root pom version -->
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -23,14 +22,12 @@
     </properties>
 
     <dependencies>
-        <!-- ✅ Common Module -->
         <dependency>
             <groupId>com.swipezy</groupId>
             <artifactId>swipezy-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- ✅ Standard Spring Boot Dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -40,7 +37,6 @@
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
 
-        <!-- ❗ Consider removing this if you're not using Spring Data REST HATEOAS features -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-rest</artifactId>
@@ -51,7 +47,6 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
 
-        <!-- ✅ Messaging (Consider using only one broker: Kafka or Pulsar) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-pulsar</artifactId>
@@ -104,7 +99,6 @@
             <artifactId>thymeleaf-extras-springsecurity6</artifactId>
         </dependency>
 
-        <!-- ✅ Annotation processors -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -116,7 +110,6 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- ✅ Testing dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -151,7 +144,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
                 <configuration>
                     <annotationProcessorPaths>
                         <path>

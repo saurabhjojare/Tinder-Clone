@@ -20,14 +20,12 @@ Swipezy is a modern, scalable Tinder clone application designed for seamless use
 
 ## Tech Stack
 
-| Layer               | Technology                         |
-|---------------------|----------------------------------|
-| Backend             | Spring Boot, Java, JUnit          |
-| Frontend            | React, TypeScript,                |
-| Database            | MongoDB                          |
-| Messaging           | Apache Kafka                     |
-| Authentication      | JWT                             |
-| Containerization    | Docker                          |
-| Cloud Hosting       | AWS                             |
-| CI/CD               | GitHub Actions                   |
-| Other               | Microservices architecture       |
+Backend: Spring Boot, Java, JUnit  
+Frontend: React, TypeScript  
+Database: MongoDB  
+Messaging: Apache Kafka  
+Authentication: JWT  
+Containerization: Docker  
+Cloud Hosting: AWS  
+CI/CD: GitHub Actions  
+Other: Microservices architecture  
